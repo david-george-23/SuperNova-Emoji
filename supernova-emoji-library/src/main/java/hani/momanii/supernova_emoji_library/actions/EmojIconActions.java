@@ -155,7 +155,7 @@ public class EmojIconActions implements View.OnFocusChangeListener {
             @Override
             public void onKeyboardOpen(int keyBoardHeight) {
                 if (keyboardListener != null) {
-                    keyboardListener.onKeyboardOpen();
+                    keyboardListener.onKeyboardOpen(keyBoardHeight);
                 }
             }
 
@@ -269,7 +269,7 @@ public class EmojIconActions implements View.OnFocusChangeListener {
 
 
     public interface KeyboardListener {
-        void onKeyboardOpen();
+        void onKeyboardOpen(int keyboardHeight);
 
         void onKeyboardClose();
     }

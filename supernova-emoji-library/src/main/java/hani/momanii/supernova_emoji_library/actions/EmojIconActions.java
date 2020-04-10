@@ -26,9 +26,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import hani.momanii.supernova_emoji_library.Helper.EmojiconEditText;
-import hani.momanii.supernova_emoji_library.Helper.EmojiconGridView;
-import hani.momanii.supernova_emoji_library.Helper.EmojiconsPopup;
+import hani.momanii.supernova_emoji_library.helper.EmojiconEditText;
+import hani.momanii.supernova_emoji_library.helper.EmojiconGridView;
+import hani.momanii.supernova_emoji_library.helper.EmojiconsPopup;
 import hani.momanii.supernova_emoji_library.R;
 import hani.momanii.supernova_emoji_library.emoji.Emojicon;
 

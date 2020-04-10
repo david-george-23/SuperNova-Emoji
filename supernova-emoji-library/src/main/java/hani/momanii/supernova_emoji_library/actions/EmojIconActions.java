@@ -236,6 +236,8 @@ public class EmojIconActions implements View.OnFocusChangeListener {
         if (popup.isKeyBoardOpen()) {
             popup.showAtBottom();
             changeEmojiKeyboardIcon(emojiButton, KeyBoardIcon);
+            final InputMethodManager imm = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(this.rootView.getWindowToken(), 0);
         } else {
             emojiconEditText.setFocusableInTouchMode(true);
             emojiconEditText.requestFocus();
